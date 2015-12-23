@@ -15,6 +15,7 @@
 		99ED53EA1C1E557300BBE93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99ED53E81C1E557300BBE93B /* LaunchScreen.storyboard */; };
 		99ED53F51C1E557300BBE93B /* MNAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ED53F41C1E557300BBE93B /* MNAlertViewTests.m */; };
 		99ED54001C1E557300BBE93B /* MNAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ED53FF1C1E557300BBE93B /* MNAlertViewUITests.m */; };
+		99ED540F1C1E55B900BBE93B /* MNAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ED540E1C1E55B900BBE93B /* MNAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		99ED53FB1C1E557300BBE93B /* MNAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99ED53FF1C1E557300BBE93B /* MNAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNAlertViewUITests.m; sourceTree = "<group>"; };
 		99ED54011C1E557300BBE93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99ED540D1C1E55B900BBE93B /* MNAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNAlert.h; sourceTree = "<group>"; };
+		99ED540E1C1E55B900BBE93B /* MNAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNAlert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				99ED53DE1C1E557300BBE93B /* AppDelegate.m */,
 				99ED53E01C1E557300BBE93B /* ViewController.h */,
 				99ED53E11C1E557300BBE93B /* ViewController.m */,
+				99ED540D1C1E55B900BBE93B /* MNAlert.h */,
+				99ED540E1C1E55B900BBE93B /* MNAlert.m */,
 				99ED53E31C1E557300BBE93B /* Main.storyboard */,
 				99ED53E61C1E557300BBE93B /* Assets.xcassets */,
 				99ED53E81C1E557300BBE93B /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				99ED53E21C1E557300BBE93B /* ViewController.m in Sources */,
 				99ED53DF1C1E557300BBE93B /* AppDelegate.m in Sources */,
 				99ED53DC1C1E557300BBE93B /* main.m in Sources */,
+				99ED540F1C1E55B900BBE93B /* MNAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
